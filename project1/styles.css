@@ -1,3 +1,48 @@
 body {
-    color: red;
+    color: rgb(85, 85, 85);
+    background-color: rgb(230, 230, 230);
+    font-family: Optima, sans-serif; 
+
+     
 }
+h1 {
+    color: rgba(43, 65, 105, 0.87);
+    font-family: Palatino, bold; 
+    font-size: 500%;
+    text-align: center; 
+    line-height: 2;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-color: rgb(228, 210, 188);
+}
+h2 {
+    text-align: center;
+    font-size: 30px; 
+    line-height: 0.5;
+    font-weight: unset; 
+}
+p { 
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    color: rgb(102, 102, 102);
+
+} 
+center {
+    font-size: 30px; 
+}
+a:link {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+   }
+   a:visited {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+   }
+   a:hover {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+   }
