@@ -1,0 +1,83 @@
+body {
+    color: rgb(85, 85, 85);
+    background-color: rgb(230, 230, 230);
+    font-family: 'Cormorant Garamond', serif; 
+    
+ 
+     
+}
+
+.wrapper {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto; 
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgba(43, 65, 105, 0.87);
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 600%;
+    text-align: center; 
+    line-height: 2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 23px; 
+    line-height: 2;
+    font-weight: unset; 
+    margin-bottom: 300px;
+}
+blockquote { 
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    color: rgb(102, 102, 102);
+    margin-top: 20px;
+    margin-bottom:50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-weight: 600;
+    text-align: center;
+}
+
+p { 
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    color: rgb(102, 102, 102);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+
+} 
+center {
+    font-size: 23px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a:link {
+    font-size: 23px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+   }
+   a:visited {
+    font-size: 23px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+   }
+   a:hover {
+    font-size: 23px;
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+   }
+
+
+/* How to make h2 elements at the same line> */
