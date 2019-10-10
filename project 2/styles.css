@@ -1,0 +1,22 @@
+.outer { height: 2.74in;
+    width: 6.7in;
+    background-color: #CCC1A9;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    box-shadow: 0in 0.1in 0.1in grey;
+
+}
+.inner {
+        background-color: #FDF1DB;
+        border-radius: 0.139in;
+        height: 2.38in;
+        width: 6.26in;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 2;
+        text-align: center;
+}
+h1 {
+    text-align: center;
+}
