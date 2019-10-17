@@ -1,13 +1,32 @@
-.outer { height: 2.74in;
-    width: 6.7in;
-    background-color: #CCC1A9;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 100px;
-    box-shadow: 0in 0.1in 0.1in grey;
-
+* {
+    box-sizing: border-box;
 }
-.inner {
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    text-align: center;
+    font-size: 24.87pt;
+    letter-spacing: 1px;
+    
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 12.96pt;
+}
+h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 11.02pt;
+    letter-spacing: 2px;
+    
+}
+.img {
+    
+}
+
+.content {
         background-color: #FDF1DB;
         border-radius: 0.139in;
         height: 2.38in;
@@ -16,7 +35,24 @@
         margin-left: auto;
         line-height: 2;
         text-align: center;
+        position: relative;
+        left:auto;
+        top: 0.17in; 
+     margin-top: 100px;
+     padding-top:0.1pt; 
+     padding-left: 100pt;
+        
 }
-h1 {
-    text-align: center;
+
+section {
+    width: 6.654in; 
+    background-color: #CCC1A9;
+    height: 2.75in; 
+    margin-right: auto;
+        margin-left: auto;
+        box-shadow: 0in 0.1in 0.1in grey;
+}
+img {
+width: 1.2955in;
+height: 1.867in;
 }
