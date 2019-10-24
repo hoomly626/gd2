@@ -4,55 +4,151 @@
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
     font-size: 24.87pt;
     letter-spacing: 1px;
-    
-}
-h2{
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 800;
-    font-size: 12.96pt;
-}
-h3 {
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 400;
-    font-size: 11.02pt;
-    letter-spacing: 2px;
-    
-}
-.img {
-    
+    margin-top: 40px;
+    color: #32302A;
 }
 
+
+ 
+ ul.info {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 12pt;
+    border-top: 4px solid #CCC1A9;
+    border-bottom: 4px solid #CCC1A9;
+    border-left: 4px solid #CCC1A9;
+    display:inline-block;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1px;
+    margin-right: 15px;
+}
+li.info   {
+    border-right: 4px solid #CCC1A9;
+    display: inline-block;
+    padding: 0px 23px;
+  }
+li.special  {
+    
+    display: inline-block;
+    padding: 0px 15px;
+    
+  }
+  
+li.special + li.info {
+    border-left: 4px solid #CCC1A9;
+    padding: 0.1px 15px;
+    
+  }
+
+.special {
+    font-weight: 500;
+    
+}
+img {
+    width: 124px;
+    height: 179px;
+    border-radius: 0.25in;
+    display: inline-block; 
+    position: relative;
+    left: -37%; 
+    bottom: -23px;
+    
+}
+/* image source: ­­­­https://www.xn--sommerkinorntgenplatz-rec.ch/index.php/events */
+.text{
+    display: inline-block;
+    position: relative;
+    right: -87px;
+    top: -215px; 
+}
 .content {
         background-color: #FDF1DB;
-        border-radius: 0.139in;
-        height: 2.38in;
-        width: 6.26in;
+        border-radius: 25px;
+        height: 225px;
+        width: 600px;
         margin-right: auto;
         margin-left: auto;
         line-height: 2;
         text-align: center;
         position: relative;
         left:auto;
-        top: 0.17in; 
-     margin-top: 100px;
-     padding-top:0.1pt; 
-     padding-left: 100pt;
+        top: 15px; 
+        color: #32302A;
+      
+   
         
 }
 
 section {
-    width: 6.654in; 
+    width: 640px; 
     background-color: #CCC1A9;
-    height: 2.75in; 
+    height: 256px; 
     margin-right: auto;
         margin-left: auto;
-        box-shadow: 0in 0.1in 0.1in grey;
+        box-shadow: 0px 9.6px 9.6px grey;
 }
-img {
-width: 1.2955in;
-height: 1.867in;
+
+#line {
+    height: 1.7in;
+    position: absolute;
+    top: 30px;
+    left: 155px;
 }
+
+
+span {
+    font-weight: 600; 
+    font-size: 10pt;
+}
+
+.watch {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 500;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-right: 40px; 
+    margin-left: 13px; 
+    
+}
+li.watch a{
+    color: #32302A;
+    text-decoration: none;
+}
+li.watch a:hover {
+    text-decoration: underline #CCC1A9; 
+    color:  #CCC1A9; 
+  }
+
+li.watch  {
+   
+    display: inline-block;
+}
+#star {
+    height: 0.15in;
+    fill: #32302A;    
+    }
+#play {
+    height: 0.15in;
+    padding-right: 10px;
+    fill: #32302A;
+}
+
+#save {
+    height: 0.15in;
+    padding-right: 5px;
+    fill: #CCC1A9;
+}
+#later {
+    height: 0.16in;
+    padding-right: 5px;
+    
+    fill: #CCC1A9;
+}
+
+/* SVG source: All created by Hongli Mao */
