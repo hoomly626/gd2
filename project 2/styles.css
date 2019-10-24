@@ -94,7 +94,7 @@ section {
 }
 
 #line {
-    height: 1.7in;
+    height: 163.2px;
     position: absolute;
     top: 30px;
     left: 155px;
@@ -130,22 +130,22 @@ li.watch  {
     display: inline-block;
 }
 #star {
-    height: 0.15in;
+    height: 14.4px;
     fill: #32302A;    
     }
 #play {
-    height: 0.15in;
+    height: 14.4px;
     padding-right: 10px;
     fill: #32302A;
 }
 
 #save {
-    height: 0.15in;
+    height: 14.4px;
     padding-right: 5px;
     fill: #CCC1A9;
 }
 #later {
-    height: 0.16in;
+    height: 15.36px;
     padding-right: 5px;
     
     fill: #CCC1A9;
