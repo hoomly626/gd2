@@ -147,6 +147,14 @@ label {
   padding-top: 32px;
   border-top: solid #163346;
 }
+.confirm label {
+  padding: 0;
+  width: calc(100% - 40px);
+}
+.confirm label,
+.confirm input {
+  vertical-align: top;
+}
 input[type="radio"],
 input[type="checkbox"] {
   -moz-appearance: none;
@@ -214,4 +222,10 @@ button{
   height: 68;
   padding-bottom: 60px;
   }
+}
+textarea {
+height:200px;
+margin-bottom: 30px;
+padding: 16px;
+width: 100%;
 }
