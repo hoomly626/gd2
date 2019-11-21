@@ -44,39 +44,56 @@
     <label for="age">Age</label>       
     <input id="age" type="number" placeholder=""required>
    
-    <fieldset="category">
-      <legend="category">Category</legend>
-    <p>Please select as many as apply to your origin and how you gained your powers.</p>
+    <fieldset>
+      <legend class="category">Category</legend>
+     <p>Please select as many as apply to your origin and how you gained your powers.</p>
             
+            
+            <label for="alien">
             <input id="alien"type="checkbox">
-            <label for="alien">Alien</label>
-            
+            Alien
+          </label>
+          <label for="cyborg">
             <input id="cyborg"type="checkbox">
-            <label for="cyborg">A Checkbox</label>
+            Cyborg
+          </label>
+            <label for="experiment">
             <input id="experiment"type="checkbox">
-            <label for="experiment">Experiment</label>
+            Experiment
+          </label>
+          <label for="human">
             <input id="human"type="checkbox">
-            <label for="human">Human</label>
+            Human
+          </label>
+          <label for="mutant">
             <input id="mutant"type="checkbox">
-            <label for="mutant">Mutant</label>
+            Mutant
+          </label>
+          <label for="inhuman">
             <input id="inhuman"type="checkbox">
-            <label for="inhuman">Inhuman</label>
+            Inhuman</label> 
     </fieldset>  
           
-  <fieldset ="gender">
-  <legend="gender">Gender</legend>
+  <fieldset>
+  <legend class="gender">Gender</legend>
+            <label for="female">
             <input name="gender" id="female"type="radio">
-            <label for="female">Female</label>
+            Female</label>
+            <label for="Male">
             <input name="gender" id="male"type="radio">
-            <label for="male">Male</label>
-            <input name="gender" id="nonbinary"type="radio">
-            <label for="nonbinary">Nonbinary</label>
+            Male</label>
+            <label for="nonbinary">
+            <input name="gender" id="nonbinary" type="radio">
+            Nonbinary</label>
+            <label for="genderqueer/genderfluid">
             <input name="gender" id="genderqueer/genderfluid"type="radio">
-            <label for="genderqueer/genderfluid">Genderqueer/Genderfluid</label>
+            Genderqueer/Genderfluid</label>
+            <label for="prefer not to answer">
             <input name="gender" id="prefer not to answer"type="radio">
-            <label for="prefer not to answer">Prefer not to answer</label>
+            Prefer not to answer</label>
+            <label for="self describe">
             <input name="gender" id="self describe"type="radio">
-            <label for="self describe">Prefer to self describe</label>
+            Prefer to self describe</label>
             <textarea name="" id="self describe" cols="30" ></textarea>
   </fieldset>
   
@@ -84,8 +101,10 @@
 <legend>POWERS&ABILITIES</legend>
 <label for="powers">Describe your powers</label>
 <textarea name="" id="powers" cols="30" >Text here</textarea>
-<span> Rate Your Abilities</span>
-<div class="strength"><svg id="strength" viewBox="3.654 2.709 58.553 58.696" xmlns="http://www.w3.org/2000/svg">
+<label for"rate""> Rate Your Abilities</label>
+<div class="parts">
+<div class="strength">
+  <svg id="strength" viewBox="3.654 2.709 58.553 58.696" xmlns="http://www.w3.org/2000/svg">
     <path d="M 4.212 61.3 C 4.356 61.37 4.506 61.405 4.651 61.405 C 5.02 61.405 5.374 61.2 5.549 60.846 C 5.794 60.352 5.589 59.753 5.095 59.508 C 4.601 59.264 4.002 59.468 3.757 59.963 C 3.513 60.457 3.717 61.056 4.212 61.3 Z" style="fill: rgb(255, 255, 255);"/>
     <path d="M 8.216 61.3 C 8.36 61.37 8.51 61.405 8.655 61.405 C 9.024 61.405 9.378 61.2 9.553 60.846 C 9.798 60.352 9.593 59.753 9.099 59.508 C 8.605 59.264 8.006 59.468 7.761 59.963 C 7.517 60.457 7.721 61.056 8.216 61.3 Z" style="fill: rgb(255, 255, 255);"/>
     <path d="M 12.216 61.3 C 12.36 61.37 12.51 61.405 12.655 61.405 C 13.024 61.405 13.378 61.2 13.553 60.846 C 13.798 60.352 13.593 59.753 13.099 59.508 C 12.605 59.264 12.006 59.468 11.761 59.963 C 11.517 60.457 11.721 61.056 12.216 61.3 Z" style="fill: rgb(255, 255, 255);"/>
@@ -195,10 +214,11 @@
 <option value="beyond">Significantly Beyond Norms</option>
 </select>
 </div>
+</div>
 <input id="confirm"type="checkbox">
 <label for="confirm">I confirm the above informatin represents my current details and is correct to the best of my knowledge.</label>
 </fieldset>
-<ul><li><a href="#">REGISTER NOW</a></li></ul>
+<button type="button">REGISTER NOW</button>
     </div>
 <!--
     text input

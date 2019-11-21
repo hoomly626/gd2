@@ -27,7 +27,7 @@ h2{
   color: #FFF; 
   width: 80%; 
   margin: auto; 
-  display: block;
+  
 
  }
  
@@ -40,6 +40,13 @@ h2{
   color: #FAFAFA;
   
 }  
+.category, .gender{
+  font-family: BenchNine;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FAFAFA;
+  border-bottom:none;
+}
  
 
  legend {
@@ -47,20 +54,22 @@ h2{
   font-weight: 500;
   font-size: 40px;
   border-bottom: solid #163346;
-  display: block;
 }
 
 
-p{
-  color: #cececd
+p {
+  color: #cececd;
 }
 
 #strength,
 #speed,
 #intelligence{
 height: 130px; 
-}
 
+}
+.parts{
+  display: inline;
+}
  
 :root{
   --color-red:
@@ -155,7 +164,7 @@ border-bottom: 2px solid red;
   width: 1px;
 }
 
-li a {
+.button{
   background-color:#71F79F;
   color: #000000;
   display: block;
