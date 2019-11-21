@@ -198,7 +198,7 @@ border-bottom: 2px solid red;
   overflow: hidden;
   margin: -1px;
   padding: 0;
-  position: absolute !important;
+  position: absolute;
   height: 1px;
   width: 1px;
 }
