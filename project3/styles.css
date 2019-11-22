@@ -1,3 +1,15 @@
+:root{
+  --color-red:
+}
+*, 
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #163346;
+}
 
 #Shield {
     height: 239px;
@@ -16,48 +28,7 @@ h2{
   font-weight: 300; 
   color: #000000;
  }
-
-.logo {
-  text-align: center;
-  background-color: #d1d5de;
-  padding: 42px;
- }
- .content {
-  background-color: #1e2019;
-  color: #FFF; 
-  width: 80%; 
-  margin: auto; 
-  padding: 24px; 
-  
-
- }
  
- fieldset{
-  padding:0;
-  font-family: BenchNine;
-  font-weight: 700;
-  font-size: 22px;
-  color: #FAFAFA;
-  border:none; 
-  margin: 24px 0; 
-  
-}  
-.category, .gender{
-  font-family: BenchNine;
-  font-weight: 700;
-  font-size: 22px;
-  color: #FAFAFA;
-  border-bottom:none;
-  margin-bottom: auto;
-}
-@media screen and (min-width: 520px){
- .half{
-   width: calc(50% - 16.5px);
-   display: inline-block;
-   vertical-align: top;
- }
-}
-
  legend {
   font-family: Teko;
   font-weight: 500;
@@ -72,88 +43,37 @@ p {
   margin: 24px 0; 
 }
 
-#strength,
-#speed,
-#intelligence{
-height: 130px; 
 
-}
-.three{
-  text-align: center;
-  padding-top: 16px;
-  padding-bottom: 64px;
-  
-} 
 
-@media screen and (min-width: 800px) {
-.three{
-  display:inline-block;
-  width: 33%;
-
-} 
-}
  
-:root{
-  --color-red:
-}
-*, 
-*::before,
-*::after{
-  box-sizing: border-box;
+ fieldset{
+  padding:0;
+  font-family: BenchNine;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FAFAFA;
+  border:none; 
+  margin: 24px 0; 
+  
+} 
+input,
+select,
+textarea{
+  font-family: inherit;
+  font-size: inherit; 
+  cursor: pointer;
 }
 
-body{
-  background-color: #163346;
+select{
+  cursor: pointer;
+  background-color: white;
+  text-align: center; 
 }
-
-.button-reset {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    padding: 0;
-    text-align: inherit;
-  }
-  ​
-  .button-reset[disabled] {
-    cursor: default;
-  }
-  
-  
-  
-  input,
-  select,
-  textarea{
-    font-family: inherit;
-    font-size: inherit; 
-    cursor: pointer;
-  }
-
-  select{
-    cursor: pointer;
-  }
 
 label {
-  display: block;
-  padding-top: 10px;
-  
-}
-.confirm {
-  display: block;
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 32px;
-  border-top: solid #163346;
-}
-.confirm label {
-  padding: 0;
-  width: calc(100% - 40px);
-}
-.confirm label,
-.confirm input {
-  vertical-align: top;
+display: block;
+padding-top: 10px;
+
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -181,27 +101,8 @@ input[type="radio"]:checked+label,
 input[type="checkbox"]:checked+label{
   text-decoration: underline #71F79F; 
 }
-input[type="text"]:required:valid,
-input[type="email"]:required:valid,
-input[type="number"]:required:valid {
-border: none;
-}
 
-input[type="text"]:not(:placeholder-shown):invalid,
-input[type="email"]:not(:placeholder-shown):invalid,
-input[type="number"]:not(:placeholder-shown):invalid {
-border-bottom: 2px solid red;
-}
-.sr-only {
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  position: absolute;
-  height: 1px;
-  width: 1px;
-}
+
 
 button{
   background-color:#71F79F;
@@ -216,16 +117,102 @@ button{
   margin: auto;
   
 }
-@media screen and (min-width: 375px){
-  textarea {
-  width: 240px;
-  height: 68;
-  padding-bottom: 60px;
-  }
-}
+
 textarea {
 height:200px;
 margin-bottom: 30px;
 padding: 16px;
 width: 100%;
+padding-bottom: 60px;
+display: block;
 }
+
+.logo {
+  text-align: center;
+  background-color: #d1d5de;
+  padding: 42px;
+ }
+ .content {
+  background-color: #1e2019;
+  color: #FFF; 
+  width: 80%; 
+  margin: auto; 
+  padding: 24px; 
+ }
+   
+.category, .gender{
+  font-family: BenchNine;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FAFAFA;
+  border-bottom:none;
+  margin-bottom: auto;
+}
+
+
+ 
+#strength,
+#speed,
+#intelligence{
+height: 130px; 
+
+}
+.three{
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 64px;
+  
+} 
+
+
+ 
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+  }
+  ​
+  .button-reset[disabled] {
+    cursor: default;
+  }
+  
+  
+  
+ 
+.confirm {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 32px;
+  border-top: solid #163346;
+}
+.confirm label {
+  padding: 0;
+  width: calc(100% - 40px);
+}
+.confirm label,
+.confirm input {
+  vertical-align: top;
+}
+
+
+@media screen and (min-width: 520px){
+  .half{
+    width: calc(50% - 16.5px);
+    display: inline-block;
+    vertical-align: top;
+  }
+ }
+ @media screen and (min-width: 800px) {
+  .three{
+    display:inline-block;
+    width: 33%;
+  
+  } 
+  }
