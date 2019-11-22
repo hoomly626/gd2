@@ -1,0 +1,218 @@
+:root{
+  --color-red:
+}
+*, 
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #163346;
+}
+
+#Shield {
+    height: 239px;
+    width: 240px;
+    color: #000000;
+}
+  h1{
+  font-family: Teko;
+  font-size: 48px;
+  font-weight: 900; 
+  color: #000000;
+}
+h2{
+  font-family: Teko;
+  font-size: 26px;
+  font-weight: 300; 
+  color: #000000;
+ }
+ 
+ legend {
+  font-family: Teko;
+  font-weight: 500;
+  font-size: 40px;
+  border-bottom: solid #163346;
+  margin: 24px 0; 
+}
+
+
+p {
+  color: #cececd;
+  margin: 24px 0; 
+}
+
+
+
+ 
+ fieldset{
+  padding:0;
+  font-family: BenchNine;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FAFAFA;
+  border:none; 
+  margin: 24px 0; 
+  
+} 
+input,
+select,
+textarea{
+  font-family: inherit;
+  font-size: inherit; 
+  cursor: pointer;
+}
+
+select{
+  cursor: pointer;
+  background-color: white;
+  text-align: center; 
+}
+
+label {
+display: block;
+padding-top: 10px;
+
+}
+input[type="radio"],
+input[type="checkbox"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #FAFAFA;
+  height: 24px;
+  width: 24px; 
+}
+input[type="radio"], input[type="checkbox"],
+input[type="radio"]+label, input[type="checkbox"]+label{
+    display: inline-block;
+}
+
+input[type="radio"]{
+  border-radius: 50%;
+}
+input[type="radio"]:checked, 
+input[type="checkbox"]:checked {
+  background-color:#71F79F;
+}
+
+input[type="radio"]:checked+label, 
+input[type="checkbox"]:checked+label{
+  text-decoration: underline #71F79F; 
+}
+
+
+
+button{
+  background-color:#71F79F;
+  color: #000000;
+  display: block;
+  font-family: Teko;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  
+}
+
+textarea {
+height:200px;
+margin-bottom: 30px;
+padding: 16px;
+width: 100%;
+padding-bottom: 60px;
+display: block;
+}
+
+.logo {
+  text-align: center;
+  background-color: #d1d5de;
+  padding: 42px;
+ }
+ .content {
+  background-color: #1e2019;
+  color: #FFF; 
+  width: 80%; 
+  margin: auto; 
+  padding: 24px; 
+ }
+   
+.category, .gender{
+  font-family: BenchNine;
+  font-weight: 700;
+  font-size: 22px;
+  color: #FAFAFA;
+  border-bottom:none;
+  margin-bottom: auto;
+}
+
+
+ 
+#strength,
+#speed,
+#intelligence{
+height: 130px; 
+
+}
+.three{
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 64px;
+  
+} 
+
+
+ 
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+  }
+  ​
+  .button-reset[disabled] {
+    cursor: default;
+  }
+  
+  
+  
+ 
+.confirm {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 32px;
+  border-top: solid #163346;
+}
+.confirm label {
+  padding: 0;
+  width: calc(100% - 40px);
+}
+.confirm label,
+.confirm input {
+  vertical-align: top;
+}
+
+
+@media screen and (min-width: 520px){
+  .half{
+    width: calc(50% - 16.5px);
+    display: inline-block;
+    vertical-align: top;
+  }
+ }
+ @media screen and (min-width: 800px) {
+  .three{
+    display:inline-block;
+    width: 33%;
+  
+  } 
+  }
