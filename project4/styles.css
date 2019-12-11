@@ -1,6 +1,60 @@
+
 body {
-margin:0;
+padding: 40px 30px;
 }
-section {
-padding: 100px 30px; /* this is for demo*/
+.woodlife {
+    padding: 300px 200px;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+    list-style:none;
+    float: right;
+}
+    
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+    float: left;
+    
+	}
+
+nav a {
+        display:block;
+        padding:16px 20px;	
+        text-decoration:none;
+    }
+
+
+.table {
+width: 1032px;
+
+}
+.speakers {
+    width: 225px;
+}
+#menu {
+    width: 54.72px; 
+    float: right;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+#logo {
+    display: block;
+	float: left;
+    width: 240.48px;
+}
+#email {
+    height: 63px;
+}
+#twitter {
+    height: 63px;
+}
+#ins {
+    height: 63px;
 }
