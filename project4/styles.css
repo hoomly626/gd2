@@ -1,12 +1,122 @@
 
 body {
-padding: 40px 30px;
+padding: 20px 50px;
+color: #936E51;
+width: 100%; 
+
 }
-.woodlife {
-    padding: 300px 200px;
+h1 {
+    
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 20px;
+    font-size: 90px;
+    margin-bottom: 20px;
+   
+
+
+}
+span {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size:30px;
+}
+
+.wrapper {
+    padding: 150px 0;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    width: 62%;
+    min-width: 451px;
+    margin: auto;
+}
+h2 {
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: #936E51;
+   
+}
+
+h3 {
+text-align: center;
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 2px;
+font-size: 24px;
+}
+p {
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 35px
+ 
+}
+
+.three {
+    margin: auto;
+    padding: 150px 0px; 
+    width: 100%; 
+    display: inline-block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+     
+}
+
+.yoh, .naoto, .henrik  {
+    margin: auto;
+    padding: 50px 100px;
+    width: 274px;
+    float:left;
+    
+     
+
+}
+
+.info {
+    padding: 200px 0px;
     margin: auto;
     display: block;
     text-align: center;
+}
+h1.info1 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 0px;
+    letter-spacing: 5px;
+    color: #936E51;
+    height: 30px;
+}
+
+h3.address {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 0px;
+    letter-spacing: 5px;
+    color: #936E51;
+    padding-top: 100px;
+}
+.woodlife {
+    min-width: 350px;
+    padding: 250px 0px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
 
 }
 
@@ -15,31 +125,51 @@ nav ul {
 	padding:0;
     list-style:none;
     float: right;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 3px;
 }
     
 nav ul li {
 	margin: 0px;
-	display:inline-block;
     float: left;
-    
-	}
+    }
 
 nav a {
         display:block;
-        padding:16px 20px;	
+        padding:20px 20px;	
         text-decoration:none;
+        color: #936E51;
     }
+    a:link {
+        text-decoration: none;
+       }
+    
+       a:hover {
+
+        text-decoration: underline;
+       }
 
 
 .table {
-width: 1032px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 500px;
+  margin-top: 100px;
 
 }
 .speakers {
-    width: 225px;
+    width: 250px;
+}
+.icon {
+    text-align: center;
 }
 #menu {
-    width: 54.72px; 
+    width: 60px; 
     float: right;
     padding-top: 20px;
     margin-left: 50px;
@@ -47,14 +177,9 @@ width: 1032px;
 #logo {
     display: block;
 	float: left;
-    width: 240.48px;
+    width: 260px;
 }
-#email {
-    height: 63px;
-}
-#twitter {
-    height: 63px;
-}
-#ins {
-    height: 63px;
+#email,#twitter,#ins {
+    height: 50px;
+    padding: 50px 30px;
 }
