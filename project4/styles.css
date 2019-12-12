@@ -34,7 +34,7 @@ span {
     letter-spacing: 3px;
     line-height: 50px;
     width: 62%;
-    min-width: 451px;
+    min-width: 250px;
     margin: auto;
 }
 h2 {
@@ -96,7 +96,7 @@ button {
 
 .yoh, .naoto, .henrik  {
     margin: auto;
-    padding: 50px 67px;
+    padding: 50px 70px;
     width: 274px;
     float:left;
     
@@ -134,7 +134,7 @@ h3.address {
 .woodlife {
     min-width: 350px;
     padding: 250px 0px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
     margin: auto;
     display: block;
     text-align: center;
@@ -143,7 +143,6 @@ h3.address {
 }
 
 nav ul {
-	margin:0;
 	padding:0;
     list-style:none;
     float: right;
@@ -161,7 +160,7 @@ nav ul li {
 
 nav a {
         display:block;
-        padding:20px 20px;	
+        padding:10px 20px;	
         text-decoration:none;
         color: #936E51;
     }
@@ -180,7 +179,7 @@ nav a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 500px;
+  min-width: 350px;
   margin-top: 100px;
 
 }
@@ -193,7 +192,7 @@ nav a {
 #menu {
     width: 60px; 
     float: right;
-    padding-top: 20px;
+    padding-top: 30px;
     margin-left: 50px;
 }
 #logo {
@@ -205,6 +204,18 @@ nav a {
     height: 50px;
     padding: 50px 30px;
 }
+#top {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #936E51;
+}
+#top:visited {
+    color: #936E51;
+    text-decoration: none;
+   }
 
 .yoh-wrapper {
     position: relative;
@@ -273,3 +284,215 @@ henrik-wrapper img {
     display: block;
   }
   
+  @media (max-width: 1240px) {
+    /* applies all css in this container when 
+    the website is below 860 pixels across */
+    h3 {
+        font-size: 30px;
+       
+    }
+    .three {
+        margin: auto;
+        padding: 150px 0px; 
+        width: 100%; 
+       
+     }
+    
+     .yoh, .naoto, .henrik  {
+        margin: auto;
+        padding:50px 0px;
+        width: 520px;
+        float: none;
+        
+    }
+    .speakers {
+        width: 300px;
+        margin: 0 19%;
+   
+    }
+    .yoh-wrapper .ring {
+        height: 230px;
+        width: 230px;
+      }
+    .naoto-wrapper .ring {
+        height: 230px;
+        width: 230px;
+      }
+    .henrik-wrapper .ring {
+        height: 230px;
+        width: 230px;
+      }
+      
+    
+}
+@media (max-width: 925px) {
+    nav a {
+        display:block;
+        padding:15px 10px;	
+        text-decoration:none;
+        color: #936E51;
+    }
+    .wrapper {
+     
+        width: 80%;
+
+    }
+}
+@media (max-width: 860px){
+ul {
+    position: relative;
+    top: 100px;
+
+}
+button {
+    left: 85%;
+}
+#logo {
+    display: block;
+	float: left;
+    width: 300px;
+}
+#menu {
+    width: 80px; 
+    float: right;
+    padding-top: 20px;
+    
+}
+}
+@media (max-width: 550px) {
+    .speakers {
+        width: 250px;
+        margin: auto;
+    }
+    .three {
+        margin: auto;
+        padding: 50px 0px; 
+        width: 100%; 
+        display: inline-block;
+         
+    }
+    
+    .yoh, .naoto, .henrik  {
+        margin: auto;
+        padding: 50px 70px;
+        width: 274px;
+         
+    
+    }
+
+    .info {
+        padding: 100px 0px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    h1.info1 {
+    
+        font-size: 30px;
+        padding-top: 0px;
+       
+    }
+   
+    
+    h3.address {
+        font-family: futura-pt, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        padding-top: 0px;
+        letter-spacing: 5px;
+        color: #936E51;
+        padding-top: 100px;
+    }
+    h1 {
+    
+    
+        letter-spacing: 20px;
+        font-size: 70px;
+        margin-bottom: 20px;
+       
+    
+    
+    }
+    h2 {
+        text-align: center;
+    }
+    span {
+        letter-spacing: 10px;
+        font-size:24px;
+    }
+    #logo {
+        display: block;
+        float: left;
+        width: 150px;
+    }
+    #menu {
+        width: 40px; 
+        float: right;
+        padding-top: 15x;
+     }
+    #email,#twitter,#ins {
+        width: 50px;
+        padding: 50px 20px;
+    }
+    nav ul {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        font-size: 10px;
+    
+        
+    }
+    button {
+        right: 0;
+        left: 80%;
+        bottom: 0;
+        height:50px;
+        width: 120px;
+        opacity: 100%;
+      }
+      .wrapper {
+        padding:100px 0;
+        font-size: 18px;
+        width: 90%;
+
+    }
+    .woodlife {
+        padding: 200px 0px;
+    
+    
+}
+@media (max-width: 350px){
+
+    button {
+        left: 70%
+}
+nav ul {
+
+    font-size: 1px;
+}
+
+h1 {
+    
+    letter-spacing: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+   
+}
+#menu {
+    width: 60px; 
+    float: right;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+#logo {
+    display: block;
+    float: left;
+    width: 180px;
+}
+#menu {
+    width: 50px; 
+    float: right;
+    padding-top: 20px;
+ }
