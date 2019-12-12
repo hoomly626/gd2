@@ -459,9 +459,22 @@ button {
 
     }
     .woodlife {
-        padding: 200px 0px;
+        padding: 150px 0px;
+    }      
     
-    
+    .yoh-wrapper .ring {
+        height: 200px;
+        width: 200px;
+      }
+    .naoto-wrapper .ring {
+        height: 200px;
+        width: 200px;
+      }
+    .henrik-wrapper .ring {
+        height: 200px;
+        width: 200px;
+      }
+      
 }
 @media (max-width: 350px){
 
