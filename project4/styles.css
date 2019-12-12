@@ -1,6 +1,6 @@
 
 body {
-padding: 20px 50px;
+padding: 50px 50px;
 color: #936E51;
 width: 100%; 
 
@@ -61,6 +61,27 @@ p {
     line-height: 35px
  
 }
+button {
+    background-color:#936E51;
+    color: white;
+    display: block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 3px;
+    padding: 15px;
+    text-decoration: none;
+    margin: auto;
+    position: fixed;
+    top: 75%;
+    right: 0;
+    left: 90%;
+    bottom: 0;
+    height:50px;
+    width: 120px;
+    opacity: 100%;
+  }
 
 .three {
     margin: auto;
@@ -75,7 +96,7 @@ p {
 
 .yoh, .naoto, .henrik  {
     margin: auto;
-    padding: 50px 100px;
+    padding: 50px 67px;
     width: 274px;
     float:left;
     
@@ -113,6 +134,7 @@ h3.address {
 .woodlife {
     min-width: 350px;
     padding: 250px 0px;
+    padding-bottom: 0px;
     margin: auto;
     display: block;
     text-align: center;
@@ -183,3 +205,71 @@ nav a {
     height: 50px;
     padding: 50px 30px;
 }
+
+.yoh-wrapper {
+    position: relative;
+}
+yoh-wrapper img {
+    max-width: 100%;
+  }
+  .yoh-wrapper .ring {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    display: none;
+    opacity: 70%;
+  }
+  
+  .yoh:hover .yoh-wrapper .ring {
+    display: block;
+  }
+  .naoto-wrapper {
+    position: relative;
+}
+naoto-wrapper img {
+    max-width: 100%;
+  }
+  .naoto-wrapper .ring {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    display: none;
+    opacity: 70%;
+  }
+  
+  .naoto:hover .naoto-wrapper .ring {
+    display: block;
+  }
+  .henrik-wrapper {
+    position: relative;
+}
+henrik-wrapper img {
+    max-width: 100%;
+  }
+  .henrik-wrapper .ring {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    display: none;
+    opacity: 70%;
+  }
+  
+  .henrik:hover .henrik-wrapper .ring {
+    display: block;
+  }
+  
