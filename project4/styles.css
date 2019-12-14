@@ -1,0 +1,509 @@
+
+body {
+padding: 50px 50px;
+color: #936E51;
+width: 100%; 
+
+}
+h1 {
+    
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 20px;
+    font-size: 90px;
+    margin-bottom: 20px;
+   
+
+
+}
+span {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size:30px;
+}
+
+.wrapper {
+    margin: auto;
+    padding: 150px 0;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    width: 62%;
+    min-width: 250px;
+ 
+}
+h2 {
+    font-family: ff-providence-sans-web-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size: 35px;
+    color: #936E51;
+   
+}
+
+h3 {
+text-align: center;
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 2px;
+font-size: 24px;
+}
+p {
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 35px
+ 
+}
+button {
+    background-color:#936E51;
+    color: white;
+    display: block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 3px;
+    padding: 15px;
+    text-decoration: none;
+    margin: auto;
+    position: fixed;
+    top: 75%;
+    right: 0;
+    left: 90%;
+    bottom: 0;
+    height:50px;
+    width: 120px;
+    opacity: 100%;
+  }
+
+  button:hover {
+      opacity: 50%;
+    }
+#email:hover {
+    opacity: 50%;
+}
+#ins:hover {
+
+        opacity: 50%;
+    }
+#twitter:hover {
+
+        opacity: 50%;
+    }
+
+.three {
+    margin: auto;
+    padding: 150px 0px; 
+    width: 100%; 
+    display: inline-block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+     
+}
+
+.yoh, .naoto, .henrik  {
+    margin: auto;
+    padding: 50px 70px;
+    width: 274px;
+    float:left;
+    
+     
+
+}
+
+.info {
+    padding: 200px 0px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+h1.info1 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 0px;
+    letter-spacing: 5px;
+    color: #936E51;
+    height: 30px;
+}
+
+h3.address {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 0px;
+    letter-spacing: 5px;
+    color: #936E51;
+    padding-top: 100px;
+}
+.woodlife {
+    min-width: 350px;
+    padding: 250px 0px;
+    padding-bottom: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+
+}
+
+
+ul {
+    padding-top: 30px;
+    text-align: right;
+}
+li {
+    display:inline-block;
+}
+
+a {
+        padding:10px 20px;	
+        text-decoration:none;
+        color: #936E51;
+    }
+ 
+       a:hover {
+        text-decoration: underline;
+        opacity: 50%;
+       }  
+    
+
+.table {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 350px;
+  margin-top: 100px;
+
+}
+.speakers {
+    width: 250px;
+}
+.icon {
+    text-align: center;
+}
+#menu {
+    width: 60px; 
+    float: right;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+#logo {
+    display: block;
+	float: left;
+    width: 260px;
+}
+#email,#twitter,#ins {
+    height: 50px;
+    padding: 50px 30px;
+}
+#top {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #936E51;
+}
+#top:visited {
+    color: #936E51;
+    text-decoration: none;
+   }
+
+.yoh-wrapper {
+    position: relative;
+}
+yoh-wrapper img {
+    max-width: 100%;
+  }
+  .yoh-wrapper .ring {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    display: none;
+    opacity: 70%;
+  }
+  
+  .yoh:hover .yoh-wrapper .ring {
+    display: block;
+  }
+  .naoto-wrapper {
+    position: relative;
+}
+naoto-wrapper img {
+    max-width: 100%;
+  }
+  .naoto-wrapper .ring {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    display: none;
+    opacity: 70%;
+  }
+  
+  .naoto:hover .naoto-wrapper .ring {
+    display: block;
+  }
+  .henrik-wrapper {
+    position: relative;
+}
+henrik-wrapper img {
+    max-width: 100%;
+  }
+  .henrik-wrapper .ring {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    display: none;
+    opacity: 70%;
+  }
+  
+  .henrik:hover .henrik-wrapper .ring {
+    display: block;
+  }
+  
+  @media (max-width: 1240px) {
+    /* applies all css in this container when 
+    the website is below 860 pixels across */
+    h3 {
+        font-size: 30px;
+       
+    }
+    .three {
+        margin: auto;
+        padding: 150px 0px; 
+        width: 100%; 
+       
+     }
+    
+     .yoh, .naoto, .henrik  {
+        margin: auto;
+        padding:50px 0px;
+        width: 520px;
+        float: none;
+        
+    }
+    .speakers {
+        width: 300px;
+        margin: 0 19%;
+   
+    }
+    .yoh-wrapper .ring {
+        height: 230px;
+        width: 230px;
+      }
+    .naoto-wrapper .ring {
+        height: 230px;
+        width: 230px;
+      }
+    .henrik-wrapper .ring {
+        height: 230px;
+        width: 230px;
+      }
+      
+    
+}
+@media (max-width: 950px) {
+   ul {
+       padding-top: 200px;
+       text-align: center;
+   }
+   .woodlife {
+   padding-top: 0;
+
+    .wrapper {
+     
+        width: 80%;
+
+    }
+}
+@media (max-width: 860px){
+
+button {
+    left: 85%;
+}
+#logo {
+    display: block;
+	float: left;
+    width: 300px;
+}
+#menu {
+    width: 80px; 
+    float: right;
+    padding-top: 20px;
+    
+}
+}
+@media (max-width: 625px) {
+    .speakers {
+        width: 250px;
+        margin: auto;
+    }
+    .three {
+        margin: auto;
+        padding: 50px 0px; 
+        width: 100%; 
+        display: inline-block;
+         
+    }
+    
+    .yoh, .naoto, .henrik  {
+        margin: auto;
+        padding: 50px 70px;
+        width: 274px;
+         
+    
+    }
+
+    .info {
+        padding: 100px 0px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    h1.info1 {
+    
+        font-size: 30px;
+        padding-top: 0px;
+       
+    }
+   
+    
+    h3.address {
+        font-family: futura-pt, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        padding-top: 0px;
+        letter-spacing: 5px;
+        color: #936E51;
+        padding-top: 100px;
+    }
+    h1 {
+    
+    
+        letter-spacing: 20px;
+        font-size: 70px;
+        margin-bottom: 20px;
+       
+    
+    
+    }
+    h2 {
+        text-align: center;
+    }
+    span {
+        letter-spacing: 10px;
+        font-size:24px;
+    }
+    #logo {
+        display: block;
+        float: left;
+        width: 200px;
+    }
+    #menu {
+        width: 60px; 
+        float: right;
+        padding-top: 15x;
+     }
+    #email,#twitter,#ins {
+        width: 50px;
+        padding: 50px 20px;
+    }
+    ul{
+        padding-bottom: 0;
+        padding-top: 100px;
+    }
+    li {
+        
+        display: block;
+        
+    }
+    a {
+        line-height: 50px;
+
+    }
+    button {
+        right: 0;
+        left: 80%;
+        bottom: 0;
+        height:50px;
+        width: 120px;
+        opacity: 100%;
+      }
+      .wrapper {
+        padding-top: 20px;
+        font-size: 18px;
+        width: 90%;
+
+    }
+    .woodlife {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }      
+    
+    .yoh-wrapper .ring {
+        height: 200px;
+        width: 200px;
+      }
+    .naoto-wrapper .ring {
+        height: 200px;
+        width: 200px;
+      }
+    .henrik-wrapper .ring {
+        height: 200px;
+        width: 200px;
+      }
+      
+}
+@media (max-width: 350px){
+
+    button {
+        left: 70%
+}
+
+h1 {
+    
+    letter-spacing: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+   
+}
+#menu {
+    width: 50px; 
+    float: right;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+#logo {
+    display: block;
+    float: left;
+    width: 180px;
+}
