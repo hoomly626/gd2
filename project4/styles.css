@@ -26,6 +26,7 @@ span {
 }
 
 .wrapper {
+    margin: auto;
     padding: 150px 0;
     font-family: futura-pt, sans-serif;
     font-weight: 300;
@@ -35,7 +36,7 @@ span {
     line-height: 50px;
     width: 62%;
     min-width: 250px;
-    margin: auto;
+ 
 }
 h2 {
     font-family: ff-providence-sans-web-pro, sans-serif;
@@ -82,6 +83,21 @@ button {
     width: 120px;
     opacity: 100%;
   }
+
+  button:hover {
+      opacity: 50%;
+    }
+#email:hover {
+    opacity: 50%;
+}
+#ins:hover {
+
+        opacity: 50%;
+    }
+#twitter:hover {
+
+        opacity: 50%;
+    }
 
 .three {
     margin: auto;
@@ -142,37 +158,26 @@ h3.address {
 
 }
 
-nav ul {
-	padding:0;
-    list-style:none;
-    float: right;
-    font-family: futura-pt, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 17px;
-    letter-spacing: 3px;
-}
-    
-nav ul li {
-	margin: 0px;
-    float: left;
-    }
 
-nav a {
-        display:block;
+ul {
+    padding-top: 30px;
+    text-align: right;
+}
+li {
+    display:inline-block;
+}
+
+a {
         padding:10px 20px;	
         text-decoration:none;
         color: #936E51;
     }
-    a:link {
-        text-decoration: none;
-       }
-    
+ 
        a:hover {
-
         text-decoration: underline;
-       }
-
+        opacity: 50%;
+       }  
+    
 
 .table {
   width: 90%;
@@ -325,13 +330,14 @@ henrik-wrapper img {
       
     
 }
-@media (max-width: 925px) {
-    nav a {
-        display:block;
-        padding:15px 10px;	
-        text-decoration:none;
-        color: #936E51;
-    }
+@media (max-width: 950px) {
+   ul {
+       padding-top: 200px;
+       text-align: center;
+   }
+   .woodlife {
+   padding-top: 0;
+
     .wrapper {
      
         width: 80%;
@@ -339,11 +345,7 @@ henrik-wrapper img {
     }
 }
 @media (max-width: 860px){
-ul {
-    position: relative;
-    top: 100px;
 
-}
 button {
     left: 85%;
 }
@@ -359,7 +361,7 @@ button {
     
 }
 }
-@media (max-width: 550px) {
+@media (max-width: 625px) {
     .speakers {
         width: 250px;
         margin: auto;
@@ -424,10 +426,10 @@ button {
     #logo {
         display: block;
         float: left;
-        width: 150px;
+        width: 200px;
     }
     #menu {
-        width: 40px; 
+        width: 60px; 
         float: right;
         padding-top: 15x;
      }
@@ -435,14 +437,18 @@ button {
         width: 50px;
         padding: 50px 20px;
     }
-    nav ul {
-        position: relative;
-        top: 0;
-        right: 0;
-        left: 0;
-        font-size: 10px;
-    
+    ul{
+        padding-bottom: 0;
+        padding-top: 100px;
+    }
+    li {
         
+        display: block;
+        
+    }
+    a {
+        line-height: 50px;
+
     }
     button {
         right: 0;
@@ -453,13 +459,14 @@ button {
         opacity: 100%;
       }
       .wrapper {
-        padding:100px 0;
+        padding-top: 20px;
         font-size: 18px;
         width: 90%;
 
     }
     .woodlife {
-        padding: 150px 0px;
+        padding-top: 0px;
+        padding-bottom: 50px;
     }      
     
     .yoh-wrapper .ring {
@@ -481,10 +488,6 @@ button {
     button {
         left: 70%
 }
-nav ul {
-
-    font-size: 1px;
-}
 
 h1 {
     
@@ -494,9 +497,9 @@ h1 {
    
 }
 #menu {
-    width: 60px; 
+    width: 50px; 
     float: right;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-left: 50px;
 }
 #logo {
@@ -504,8 +507,3 @@ h1 {
     float: left;
     width: 180px;
 }
-#menu {
-    width: 50px; 
-    float: right;
-    padding-top: 20px;
- }
